@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: blockroom
+    runtime: docker
+    plan: free
+    healthCheckPath: /
